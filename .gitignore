@@ -1,0 +1,11 @@
+.idea/
+.DS_Store
+venv*/
+data/test/
+data/train/
+*.pyc
+*__pycache__*
+mlruns/
+hyperband_tuner*/
+.streamlit/secrets.toml
+zenml_stack_recipes/
