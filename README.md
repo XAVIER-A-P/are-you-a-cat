@@ -2,7 +2,7 @@
 
 #  Are You A Cat ?
 
-
+![Alt text]("C:\Users\HP\Downloads\cat.jpg")
 
 ###  Objective
 This project explores MLOps and deep learning practices by building an end-to-end image classification pipeline that determines whether an uploaded selfie is of a cat. While the premise is playful, the real goal is to experiment with model training, deployment, and pipeline orchestration using modern tools like ZenML, MLflow, and Streamlit.
@@ -80,6 +80,7 @@ This project explores MLOps and deep learning practices by building an end-to-en
 - Migrate training and deployment to cloud infrastructure
 - Automate pipeline execution and monitoring
 - Enhance data validation, model evaluation, and UI robustness
+
 
 
 
