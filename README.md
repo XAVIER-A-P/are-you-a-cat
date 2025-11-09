@@ -1,7 +1,7 @@
 
 
 
-# Are You A Cat?
+# Are You A Cat ?
 
 ## Problem Statement
 Sometimes it is hard to know if you are a cat or not. The goal of this project is to use deep learning to help with that.
@@ -91,6 +91,7 @@ This pipeline is a simple first pass, and has some major limitations. Some thing
 ### Misc:
 - Dockerizing might make sense.  
 - There are likely opportunities for better testing, since currently the tests I have are quite minimal.  
+
 
 
 
