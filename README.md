@@ -1,20 +1,22 @@
 
 
-## 🐱 Project Summary: "Are You A Cat?"
-
-### 🧩 Objective
-This project explores MLOps and deep learning practices by building an end-to-end image classification pipeline that determines whether an uploaded selfie is of a cat. While the premise is playful, the real goal is to experiment with model training, deployment, and pipeline orchestration using modern tools like ZenML, MLflow, and Streamlit.
+##  Are You A Cat ?
 
 ---
 
-### 🛠️ Solution Overview
+###  Objective
+This project explores MLOps and deep learning practices by building an end-to-end image classification pipeline that determines whether an uploaded selfie is of a cat. While the premise is playful, the real goal is to experiment with model training, deployment, and pipeline orchestration using modern tools like ZenML, MLflow, and Streamlit.
+
+
+
+###  Solution Overview
 
 - **Frameworks Used**: ZenML, TensorFlow Keras, MLflow, Streamlit, Deepchecks
 - **Core Functionality**: Classify uploaded images as "cat" or "not cat" via a CNN model served through a Streamlit app
 
----
 
-### 🔄 Pipeline Architecture
+
+###  Pipeline Architecture
 
 #### 1. Training Pipeline
 - **Steps**: Data cleaning → Model training → Evaluation
@@ -33,18 +35,18 @@ This project explores MLOps and deep learning practices by building an end-to-en
 - **Functionality**: Accepts selfies, returns cat probability, stores feedback and images to S3
 - **Future Plans**: Add SHAP explanations for interpretability
 
----
 
-### 📊 Data Details
+
+###  Data Details
 
 - **Sources**: Cats & dogs dataset, selfies, random images
 - **Composition**: 25% each of cats, dogs, selfies, and miscellaneous
 - **Preprocessing**: Reshaping and normalization
 - **Validation**: Deepchecks used ad-hoc for non-tabular data
 
----
 
-### 🚧 Current Limitations & Future Enhancements
+
+###  Current Limitations & Future Enhancements
 
 #### Data
 - Label accuracy and duplication checks are pending
@@ -71,12 +73,13 @@ This project explores MLOps and deep learning practices by building an end-to-en
 - Minimal testing coverage
 - Dockerization under consideration
 
----
 
-### 🚀 Next Steps
+
+###  Next Steps
 - Integrate SHAP for model interpretability
 - Migrate training and deployment to cloud infrastructure
 - Automate pipeline execution and monitoring
 - Enhance data validation, model evaluation, and UI robustness
+
 
 
